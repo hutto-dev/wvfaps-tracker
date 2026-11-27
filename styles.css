@@ -1,4 +1,7 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: arial;
 }
 
@@ -8,13 +11,41 @@ body {
   align-items: center;
 }
 
-#categories {
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pft-categories {
+  display: flex;
+  width: 100%;
+  min-height: 13em;
+  padding: 1rem;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.presidental,
+.national {
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+ul {
+  list-style: none;
+}
+
+.hfz-categories {
   display: flex;
   width: 75%;
   justify-content: space-around;
   border: 2px solid black;
-  border-radius: 5px;
-  margin: 20px;
 }
 
 table {

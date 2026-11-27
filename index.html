@@ -7,96 +7,128 @@
     <title>WVFAPS Tracker</title>
   </head>
   <body>
-    <div id="categories">
-      <section id="HFZ">
-        <h2>HFZ</h2>
-        <ul id="hfzList">
-          <li>Ryan West</li>
-        </ul>
-      </section>
-      <section id="national">
-        <h2>National</h2>
-        <ul id="natList">
-          <li>Ryan West</li>
-        </ul>
-      </section>
-      <section id="presidental">
-        <h2>Presidental</h2>
-        <ul id="presList">
-          <li>Ryan West</li>
-        </ul>
-      </section>
-    </div>
-    <div id="table">
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Gender</th>
-            <th>Age</th>
-            <th>Trunk</th>
-            <th>SR - L</th>
-            <th>SR- R</th>
-            <th>Push ups</th>
-            <th>Pacer</th>
-            <th>Plank</th>
-          </tr>
-        </thead>
-        <tbody id="rows">
-          <tr>
-            <td><input type="text" class="student-name" /></td>
-            <td>
-              <select class="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-            </td>
-            <td><input type="number" class="student-age" /></td>
+    <header>
+      <h1>WVFAPS TRACKER</h1>
+    </header>
+    <main>
+      <div class="pft-categories">
+        <section class="presidental">
+          <h2>Presidental</h2>
+          <ul id="presList">
+            <li>Tori Hutto</li>
+          </ul>
+        </section>
+        <section class="national">
+          <h2>National</h2>
+          <ul id="natList">
+            list
+          </ul>
+        </section>
+      </div>
+      <div class="hfz-categories">
+        <section id="male">
+          <h2>Male HFZ</h2>
+          <section id="11">
+            <h2>11 years:</h2>
+            <h3 id="maleList11"></h3>
+          </section>
+          <section id="12">
+            <h2>12 years:</h2>
+            <h3 id="maleList12"></h3>
+          </section>
+          <section id="13">
+            <h2>13 years:</h2>
+            <h3 id="maleList13"></h3>
+          </section>
+        </section>
+        <section id="male">
+          <h2>Female HFZ</h2>
+          <section id="11">
+            <h2>11 years:</h2>
+            <h3 id="femaleList11"></h3>
+          </section>
+          <section id="12">
+            <h2>12 years:</h2>
+            <h3 id="femaleList12"></h3>
+          </section>
+          <section id="13">
+            <h2>13 years:</h2>
+            <h3 id="femaleList13"></h3>
+          </section>
+        </section>
+      </div>
+      <div id="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Gender</th>
+              <th>Age</th>
+              <th>Trunk</th>
+              <th>SR - L</th>
+              <th>SR- R</th>
+              <th>Push ups</th>
+              <th>Pacer</th>
+              <th>Plank</th>
+            </tr>
+          </thead>
+          <tbody id="rows">
+            <tr>
+              <td><input type="text" class="student-name" /></td>
+              <td>
+                <select class="gender">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </td>
+              <td><input type="number" class="student-age" /></td>
 
-            <td><input type="number" class="trunk" /></td>
-            <td><input type="number" class="sitReachL" /></td>
-            <td><input type="number" class="sitReachR" /></td>
-            <td><input type="number" class="pushup" /></td>
-            <td><input type="number" class="pacer" /></td>
-            <td><input type="number" class="plank" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" class="student-name" /></td>
-            <td>
-              <select class="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-            </td>
-            <td><input type="number" class="student-age" /></td>
-            <td><input type="number" class="trunk" /></td>
-            <td><input type="number" class="sitReachL" /></td>
-            <td><input type="number" class="sitReachR" /></td>
-            <td><input type="number" class="pushup" /></td>
-            <td><input type="number" class="pacer" /></td>
-            <td><input type="number" class="plank" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" class="student-name" /></td>
-            <td>
-              <select class="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-            </td>
-            <td><input type="number" class="student-age" /></td>
+              <td><input type="number" class="trunk" /></td>
+              <td><input type="number" class="sitReachL" /></td>
+              <td><input type="number" class="sitReachR" /></td>
+              <td><input type="number" class="pushup" /></td>
+              <td><input type="number" class="pacer" /></td>
+              <td><input type="number" class="plank" /></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="student-name" /></td>
+              <td>
+                <select class="gender">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </td>
+              <td><input type="number" class="student-age" /></td>
+              <td><input type="number" class="trunk" /></td>
+              <td><input type="number" class="sitReachL" /></td>
+              <td><input type="number" class="sitReachR" /></td>
+              <td><input type="number" class="pushup" /></td>
+              <td><input type="number" class="pacer" /></td>
+              <td><input type="number" class="plank" /></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="student-name" /></td>
+              <td>
+                <select class="gender">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </td>
+              <td><input type="number" class="student-age" /></td>
 
-            <td><input type="number" class="trunk" /></td>
-            <td><input type="number" class="sitReachL" /></td>
-            <td><input type="number" class="sitReachR" /></td>
-            <td><input type="number" class="pushup" /></td>
-            <td><input type="number" class="pacer" /></td>
-            <td><input type="number" class="plank" /></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <button id="submit-btn">SUBMIT</button>
+              <td><input type="number" class="trunk" /></td>
+              <td><input type="number" class="sitReachL" /></td>
+              <td><input type="number" class="sitReachR" /></td>
+              <td><input type="number" class="pushup" /></td>
+              <td><input type="number" class="pacer" /></td>
+              <td><input type="number" class="plank" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button id="submit-btn">SUBMIT</button>
+    </main>
+    <footer></footer>
 
     <script src="./script.js"></script>
   </body>

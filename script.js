@@ -1,7 +1,13 @@
 const button = document.getElementById("submit-btn");
-const hfzList = document.getElementById("hfzList");
 const natList = document.getElementById("natList");
 const presList = document.getElementById("presList");
+
+const maleList11 = document.getElementById("maleList11");
+const maleList12 = document.getElementById("maleList12");
+const maleList13 = document.getElementById("maleList13");
+const femaleList11 = document.getElementById("femaleList11");
+const femaleList12 = document.getElementById("femaleList12");
+const femaleList13 = document.getElementById("femaleList13");
 
 // calculate bmi
 
